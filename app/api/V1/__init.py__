@@ -1,0 +1,3 @@
+from flask import Blueprint
+
+Version1 = Blueprint("V1", __name__, url_prefix="/api/V1")
